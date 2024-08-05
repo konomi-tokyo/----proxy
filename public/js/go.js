@@ -1,4 +1,4 @@
-window.addEventListener("load", function() {
+ window.addEventListener("load", function() {
 var search = document.getElementById("search")
 search.addEventListener("keyup", function(event) {
     event.preventDefault()
