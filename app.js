@@ -30,7 +30,7 @@ app.use(express.static("./public", {
 }));
 
 app.get("/", function(req, res){
-    res.sendFile("aegis.html", {root: "./public"});
+    res.sendFile("index.html", {root: "./public"});
 });
 
 app.get("/suggestions", function(req, res){
